@@ -123,28 +123,3 @@
 # translate()	Returns a translated string
 # upper()	Converts a string into upper case
 # zfill()	Fills the string with a specified number of 0 values at the beginning
-
-
-
-# 🧠 🔥 STRING MASTERY TASK — “SECURITY STATUS PARSER”
-# You're building a small tool to analyze logs coming from a system scan. You are given this string from a scanner:
-# print (log = " ScanResult :  CRITICAL | user: bishal2062 | risk-level: HIGH | location : /home/bishal/Documents  ")
-
-# 🎯 Your tasks:
-# Clean up the log string so there’s no unnecessary whitespace at the start or end.
-
-# Extract and print:
-# The status level (e.g., CRITICAL)
-# The username (e.g., bishal2062)
-# The risk-level (e.g., HIGH)
-# Capitalize only the first letter of the status.
-# Replace "Documents" in the location path with "Secured" and print the new path.
-# Format your final output like this:
-# ALERT: Critical threat detected for user 'bishal2062'!
-# Risk Level: HIGH
-# Location Path: /home/bishal/Secured
-
-log = " ScanResult :  CRITICAL | user: bishal2062 | risk-level: HIGH | location : /home/bishal/Documents  "
-print(log.strip())
-
-
